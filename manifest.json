@@ -1,5 +1,5 @@
 {
-  "name": "Inconspicuously Yours",
+  "name": "Naughty List",
   "version": "1.0",
   "description": "Avoid publicly opening tabs with NSFW content by accident",
   "background": { "scripts": ["background.js"] },
