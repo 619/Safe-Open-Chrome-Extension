@@ -11,7 +11,7 @@ function blur() {
              chrome.tabs.update(tabs[i].id, {"muted": true});
              chrome.tabs.executeScript(tabs[i].id, {
              code: 'document.body.style.WebkitFilter = ' + '"grayscale('+80+'%) blur('+25+'px)"'
-             });
+           });
            }
            chrome.browserAction.setIcon({path:"icona48.png"});
        });
@@ -25,7 +25,7 @@ function unblur() {
              chrome.tabs.update(tabs[o].id, {"muted": false});
              chrome.tabs.executeScript(tabs[o].id, {
              code: 'document.body.style.WebkitFilter = ' + '"grayscale(0%) blur(0px)"'
-             });
+           });
            }
            chrome.browserAction.setIcon({path:"iconb48.png"});
        });
