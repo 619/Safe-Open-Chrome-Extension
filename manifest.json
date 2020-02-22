@@ -1,7 +1,7 @@
 {
-  "name": "Naughty List",
+  "name": "Safe Open",
   "version": "1.0",
-  "description": "Avoid publicly opening tabs with NSFW content by accident",
+  "description": "All your tabs are blurred when you open your laptop to avoid potential embarassment.",
   "manifest_version": 2,
   "background": { "scripts": ["background.js"] },
   "icons": {
@@ -11,7 +11,7 @@
   },
   "browser_action": {
      "default_icon": "iconb128.png",
-     "default_title": "Naughty List"
+     "default_title": "Safe Open"
    },
   "permissions": ["tabs", "http://*/*", "http://*/", "https://*/", "idle"]
 }
