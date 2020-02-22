@@ -1,5 +1,3 @@
-//Copyright 2020 Bobby Zhang. All rights reserved.
-
 var pluginOn = false;
 (function() {
 
