@@ -2,8 +2,8 @@
   "name": "Naughty List",
   "version": "1.0",
   "description": "Avoid publicly opening tabs with NSFW content by accident",
-  "background": { "scripts": ["background.js"] },
   "manifest_version": 2,
+  "background": { "scripts": ["background.js"] },
   "icons": {
     "16": "icona16.png",
     "48": "iconb48.png",
@@ -13,5 +13,5 @@
      "default_icon": "iconb128.png",
      "default_title": "Naughty List"
    },
-  "permissions": [ "activeTab", "tabs", "http://*/*", "http://*/", "https://*/", "idle", "webNavigation"]
+  "permissions": ["tabs", "http://*/*", "http://*/", "https://*/", "idle"]
 }
