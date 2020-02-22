@@ -13,7 +13,7 @@ function blur() {
              code: 'document.body.style.WebkitFilter = ' + '"grayscale('+80+'%) blur('+25+'px)"'
            });
            }
-           chrome.browserAction.setIcon({path:"icona48.png"});
+           chrome.browserAction.setIcon({path:"icona32.png"});
        });
 }
 
@@ -27,7 +27,7 @@ function unblur() {
              code: 'document.body.style.WebkitFilter = ' + '"grayscale(0%) blur(0px)"'
            });
            }
-           chrome.browserAction.setIcon({path:"iconb48.png"});
+           chrome.browserAction.setIcon({path:"iconb32.png"});
        });
 }
 
