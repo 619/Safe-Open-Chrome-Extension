@@ -1,7 +1,8 @@
 {
-  "name": "Safe Open",
+  "name": "Safe Open Browser Blurring",
+  "short_name": "Safe Open",
   "version": "1.0",
-  "description": "All your tabs are blurred when you open your laptop to avoid potential embarassment.",
+  "description": "Automatically blur your browser when your computer wakes up from sleep to avoid embarassment in public!",
   "manifest_version": 2,
   "background": { "scripts": ["background.js"] },
   "icons": {

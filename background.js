@@ -42,8 +42,10 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 
 chrome.idle.onStateChanged.addListener(function(state) {
+  if (state == "locked") {
   pluginOn = true;
   blur();
+}
 });
 
 })();
